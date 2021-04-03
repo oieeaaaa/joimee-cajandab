@@ -1,0 +1,10 @@
+@import url("./styles/variables.css");
+@import url("./styles/global.css");
+@import url("./styles/grid.css");
+@import url("./styles/keyframes.css");
+@import url("./styles/icon.css");
+
+@import url("./styles/header.css");
+@import url("./styles/hero.css");
+@import url("./styles/uses.css");
+@import url("./styles/footer.css");

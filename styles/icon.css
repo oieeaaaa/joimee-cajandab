@@ -1,0 +1,25 @@
+.icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  user-select: none;
+  pointer-events: none;
+  speak: none;
+}
+
+/*from icons folder*/
+.icon--vim {
+  background-image: url("../assets/icons/vim.svg");
+}
+
+.icon--figma {
+  background-image: url("../assets/icons/figma.svg");
+}
+
+.icon--photoshop {
+  background-image: url("../assets/icons/photoshop.svg");
+}
+
+/*from images folder*/
+.icon--iterm2 {
+  background-image: url("../assets/images/iterm2.png");
+}

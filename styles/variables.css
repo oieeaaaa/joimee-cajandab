@@ -1,0 +1,10 @@
+:root {
+  /*color palette*/
+  --bg: #000;
+  --fg: #fff;
+  --slime: #68ff65;
+
+  /*fonts*/
+  --sans-serif: "Montserrat", sans-serif;
+  --monospace: "Source Code Pro", monospace;
+}

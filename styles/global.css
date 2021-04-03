@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+body {
+  font-family: var(--sans-serif);
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.05em;
+}
+
+.link {
+  font-family: inherit;
+  text-decoration: underline;
+  font-weight: normal;
+  color: var(--fg);
+}
+
+@media screen and (min-width: 768px) {
+  .link {
+    background-image: linear-gradient(var(--fg), var(--fg));
+    background-size: 100%;
+    background-position-y: 1em;
+    background-repeat: no-repeat;
+    transition: 250ms ease;
+    transition-property: background-position-y, color;
+    text-decoration: none;
+  }
+
+  .link:hover {
+    color: var(--bg);
+    background-position-y: 0em;
+  }
+}
